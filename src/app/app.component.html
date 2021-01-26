@@ -1,0 +1,146 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://localhost:4200/">Task</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="http://localhost:4200/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="signin">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="signup">Register</a>  
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+<router-outlet></router-outlet>
+<br>
+<div class="container">
+<div class="jumbotron">
+    <p>
+        In project management, a task is an activity that needs to be accomplished within a defined period of time or by a deadline to work towards work-related goals. It is a small essential piece of a job that serves as a means to differentiate various components of a project. A task can be broken down into assignments which should also have a defined start and end date or a deadline for completion. One or more assignments on a task puts the task under execution. Completion of all assignments on a specific task normally renders the task completed. Tasks can be linked together to create dependencies.
+
+Tasks completion generally requires the coordination of others. Coordinated human interaction takes on the role of combining the integration of time, energy, effort, ability, and resources of multiple individuals to meet a common goal. Coordination can also be thought of as the critical mechanism that links or ties together the efforts on the singular level to that of the larger task being completed by multiple members. Coordination allows for the successful completion of the otherwise larger tasks that one might encounter.
+
+In most projects, tasks may suffer one of two major drawbacks:
+
+Task dependency: Which is normal as most tasks rely on others to get done. However, this can lead to the stagnation of a project when many tasks cannot get started unless others are finished.
+Unclear understanding of the term complete: For example, if a task is 90% complete, does this mean that it will take only 1/9 of the time already spent on this task to finish it? Although this is mathematically sound, it is rarely the case when it comes to practice.
+    </p>
+</div>
+</div>
+<br>
+ <div class="container mt-3">
+    <div id="bootstrapCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Slide Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#bootstrapCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#bootstrapCarousel" data-slide-to="1"></li>
+        <li data-target="#bootstrapCarousel" data-slide-to="2"></li>
+      </ul>
+  
+      <!-- The slides to show -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="../assets/images/c1.png"
+            width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../assets/images/c2.png"
+            width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img
+            src="../assets/images/c3.png"
+            width="1100" height="500">
+        </div>
+      </div>
+  
+      <!--  Controls (Left and right) -->
+      <a class="carousel-control-prev" href="#bootstrapCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#bootstrapCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-3">
+  <div class="thumbnail">
+    <img src="../assets/images/b1.jpg" alt="...">
+    <div class="caption">
+      <h3>Onion</h3>
+      <p>Onion is a vegetable which is almost like a staple in Indian food. 
+          This is also known to be one of the essential ingredients of raw salads
+          This is also known to be one of the essential ingredients of raw salads</p>
+      <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">AddCart</a></p>
+    </div>
+  </div>
+</div>
+<div class="col-md-3">
+    <div class="thumbnail">
+      <img src="../assets/images/b2.jpg" alt="...">
+      <div class="caption">
+        <h3>Potato</h3>
+        <p>Fresho Potatoes are nutrient-dense, non-fattening and have reasonable amount of calories. Include them in your regular meals so that the body receives a good supply of carbohydrates, 
+            dietary fibers</p>
+        <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">AddCart</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <img src="../assets/images/b3.jpg" alt="...">
+      <div class="caption">
+        <h3>Carrot - Local</h3>
+        <p>A popular sweet-tasting root vegetable, Carrots are narrow and cone shaped. They have thick, fleshy, deeply colored root, which grows underground, 
+            and feathery green leaves that emerge above the ground.</p>
+        <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">AddCart</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <img src="../assets/images/b4.jpg" alt="...">
+      <div class="caption">
+        <h3>Tomato - Hybrid</h3>
+        <p>Tomato Hybrids are high-quality fruits compared to desi, local tomatoes. They contain numerous edible seeds and are red in colour due to lycopene, an anti-oxidant. 
+            Do not forget to check out our delicious recipe</p>
+        <p><a href="#" class="btn btn-primary" role="button">Buy</a> <a href="#" class="btn btn-default" role="button">AddCart</a></p>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<div class="row">
+    <div class="col-md-3">
+         <a href="#" class="thumbnail">
+            <img class="cntn" src="../assets/images/p1.png" alt="...">
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a href="#" class="thumbnail">
+              <img class="cntn" src="../assets/images/p2.png" alt="...">
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a href="#" class="thumbnail">
+            <img class="cntn" src="../assets/images/p3.png" alt="...">
+        </a>
+    </div>
+    <div class="col-md-3">
+        <a href="#" class="thumbnail">
+            <img class="cntn" src="../assets/images/p4.png" alt="...">
+        </a>
+    </div>
+</div>

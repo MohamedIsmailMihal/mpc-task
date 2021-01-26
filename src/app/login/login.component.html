@@ -1,0 +1,22 @@
+<br>
+<div class="container">
+  <form #userForm="ngForm" (ngSubmit)="onClickSubmit(userForm.value)">
+    <div class="row align-items-center p-3 mb-2 bg-info text-white center">
+      <div class="col align-self-center">
+        <br>
+        <div class="col-md-12">
+          <label class="form-label">Email address</label>
+          <input name="ei" type="email" class="form-control" ngModel/>
+        </div>
+        <div class="col-md-12">
+          <label class="form-label">Password</label>
+          <input name="pw" type="password" class="form-control" ngModel/>
+        </div>
+        <br>
+        <div class="col-md-3">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

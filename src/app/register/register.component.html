@@ -1,0 +1,48 @@
+<br>
+<div class="container p-3 mb-2 bg-info text-white center">
+    <div class="row align-items-center">
+        <div class="col align-self-center">
+            <form #rgForm="ngForm" (ngSubmit)="onClickSubmit(rgForm.value)">
+                <br>
+                <div class="row">
+                    <div class="col-6">
+                        <label class="form-label">First Name</label>
+                        <input name="fn" class="form-control" ngModel/>
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label">Last Name</label>
+                        <input name="ln" class="form-control" ngModel/>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-6">
+                        <label class="form-label">Age</label>
+                        <input name="Age" class="form-control" ngModel/>
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label">DOB</label>
+                        <input name="dob" class="form-control" ngModel/>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-6">
+                        <label class="form-label">Phone Number</label>
+                        <input name="pn" class="form-control" ngModel/>
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label">Pin Code</label>
+                        <input name="pc" class="form-control" ngModel/>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>            
+            </form>
+        </div>    
+    </div>    
+</div>
